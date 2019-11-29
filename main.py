@@ -46,6 +46,7 @@ plt.scatter(IrisData['sepal_length'], IrisData['sepal_width'], c='purple',
 plt.xlabel('Length')
 plt.ylabel('Width')
 plt.legend()
+plt.savefig('Plotting.png')
 # =============================================================================
 # 80% of the data were randomly selected for education. 
 # The remainder was used for testing.
@@ -65,6 +66,7 @@ IrisTree = IrisTree.fit(X_train, y_train)
 # Decision tree plotting.
 # =============================================================================
 tree.plot_tree(IrisTree)
+plt.savefig('DecisionTree.png')
 
 print ('\nConfusion Matrix')
 print ((confusion_matrix(y_test, IrisTree.predict(X_test))),'\n')
