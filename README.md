@@ -1,7 +1,7 @@
 # Hello Everyone
 This project includes some studies on data science with Python. I did my studies using the Iris dataset.
 
-## What do you need?
+## What do you need?..
 You must install the following libraries.
 + Scikit-learn
 + Pandas
